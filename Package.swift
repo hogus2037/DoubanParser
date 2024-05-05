@@ -16,7 +16,7 @@ let package = Package(
             targets: ["DoubanParser"]),
     ],
     dependencies: [
-        .package(url: "github.com/scinfu/SwiftSoup.git", from: "2.7.2")
+        .package(url: "https://github.com/scinfu/SwiftSoup.git", from: "2.7.2")
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
